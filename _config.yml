@@ -1,0 +1,10 @@
+title: webdialog
+email: zaryob.dev@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+    A web template for creating dialog command like web page creation.
+
+baseurl: "" # the subpath of your site, e.g. /blog
+
+twitter_username: pyrz_suleyman
+github_username:  Zaryob
+

@@ -1,0 +1,69 @@
+<style "text/css">
+body,html {
+  background: #3464a4;
+
+  color: white;
+  font-family: monospace;
+  letter-spacing: -1px;
+}
+form {
+  width: 250px;
+  margin: 0 auto;
+  padding: 0 2px 8px;
+
+  color: #000;
+  background: #DDD;
+  box-shadow: 8px 16px #234;
+}
+fieldset {
+  height: 130px;
+  border-color: #555;
+}
+
+legend {
+  color: #D00;
+  margin: 0 auto;
+}
+legend:after {
+  content: ' | ';
+  color: #555;
+}
+legend:before {
+  content:' | ';
+  color: #555;
+}
+
+div {
+  width: 70px;
+  margin: 0 auto;
+}
+
+
+button {
+  margin: 2px 0;
+  padding: 0;
+  border: none;
+
+  color: inherit;
+  background: none;
+  letter-spacing: inherit;
+  font: inherit;
+}
+button:focus, button:hover {
+  background: #C00;
+  color: white;
+  outline: none;
+}
+</style>
+<form>
+ <fieldset>
+  <legend>Terminal dialog window</legend>
+   Default:<br>
+   <div>
+     <button>Button 1</button><br>
+     <button>Button 2</button><br><br>
+     <button>&lt;Ok&gt;</button>
+     <button>&lt;Cancel&gt;</button>
+   </div>
+ </fieldset>
+</form>
